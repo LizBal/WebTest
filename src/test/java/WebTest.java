@@ -31,12 +31,11 @@ public class WebTest {
 
     @Test
     public void testFirst() throws InterruptedException {
-        String chromeDriver = "webdriver.chrome.driver";
-        String driverPath = "chromedriver.exe";
+
+
         String url = "http://www.99-bottles-of-beer.net/";
         String expectedResult = "http://www.99-bottles-of-beer.net/";
 
-        System.setProperty(chromeDriver, driverPath);
         WebDriver driver = new ChromeDriver();
 
 
@@ -53,11 +52,9 @@ public class WebTest {
     @Test
 
     public void testSecond() throws InterruptedException {
-        String chromeDriver = "webdriver.chrome.driver";
-        String driverPath = "chromedriver.exe";
+
         String url = "http://www.99-bottles-of-beer.net/";
 
-        System.setProperty(chromeDriver, driverPath);
         WebDriver driver = new ChromeDriver();
 
         driver.get(url);
