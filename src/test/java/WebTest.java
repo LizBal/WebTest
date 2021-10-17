@@ -14,7 +14,7 @@ public class WebTest {
 
     @BeforeMethod
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Allita\\IdeaProjects\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
 
         driver.manage().window().maximize();
