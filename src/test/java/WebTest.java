@@ -32,7 +32,7 @@ public class WebTest {
     @Test
     public void testFirst() throws InterruptedException {
         String chromeDriver = "webdriver.chrome.driver";
-        String driverPath = "C:\\Users\\Allita\\IdeaProjects\\chromedriver.exe";
+        String driverPath = "chromedriver.exe";
         String url = "http://www.99-bottles-of-beer.net/";
         String expectedResult = "http://www.99-bottles-of-beer.net/";
 
@@ -54,7 +54,7 @@ public class WebTest {
 
     public void testSecond() throws InterruptedException {
         String chromeDriver = "webdriver.chrome.driver";
-        String driverPath = "C:\\Users\\Allita\\IdeaProjects\\chromedriver.exe";
+        String driverPath = "chromedriver.exe";
         String url = "http://www.99-bottles-of-beer.net/";
 
         System.setProperty(chromeDriver, driverPath);
